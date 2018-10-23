@@ -1,0 +1,8 @@
+character
+holding
+hash
+map
+character
+holding
+hash
+map
