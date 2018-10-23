@@ -12,6 +12,9 @@ function bfs(graph, root) {
   var current;
 
   while (queue.length != 0) {
+    current = queue.shift();
+
+    var curConnected = graph[current];
     var neighborIdx = [];
     var idx = curConnected.indexOf(1);
     while (idx != -1) {
